@@ -1,6 +1,5 @@
-Robin Steffens
-698719
-inf1B
-
-https://Cheo-Pog.github.io
-https://github.com/Cheo-Pog/Web-Markup-Final
+Student name: Robin Steffens
+Student number: 698719
+Student class: inf1B
+URL student GitHub website: https://Cheo-Pog.github.io
+URL student GitHub repository: https://github.com/Cheo-Pog/Web-Markup-Final
