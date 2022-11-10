@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link
+			rel ="stylesheet"
+			type ="text/css"
+			href ="css/stylesheet.css"
+		/>
+	</head>	
+	<body>
+		<header>
+			<h1 id="title">
+				Sport Innovations
+			</h1>
+			<h2 id="payoff">
+				Innovation, Information, Invigoration
+			</h2>
+			<nav class="navigation">
+				<ul class="pc flex-container">
+					<li><a href="index.html" class="link">home</a></li>
+					<li><a href="product.html" class="link">product</a></li>
+					<li><a href="pricing.html" class="link">pricing</a></li>
+					<li><a href="contact.html" class="link">contact</a></li>
+				</ul>
+				<ul class="tablet flex-container">
+					<li><a href="index.html" class="link">home</a></li>
+					<li><a href="product.html" class="link">product</a></li>
+					<li><a href="pricing.html" class="link">pricing</a></li>
+					<li><a href="contact.html" class="link">contact</a></li>
+				</ul>
+				<section class="mobile">
+					<input class="Input_menu", type="checkbox" />
+					<label class="Borgor">
+						<span></span>
+					</label>
+					<ul class="Menu_box">
+						<li><a href="index.html" class="link">home</a></li>
+						<li><a href="product.html" class="link">product</a></li>
+						<li><a href="pricing.html" class="link">pricing</a></li>
+						<li><a href="contact.html" class="link">contact</a></li>
+					</ul>
+				</section>
+			</nav>
+			<aside id="contact_aside">
+			<a href="https://www.inholland.nl/" id="aside_img1_contact" class="aside_img_contact">
+			<img src="img/yay.jpg"
+				title="placeholder"
+				alt="placeholder"/>
+			</a>
+			<a href="https://www.inholland.nl/" id="aside_img2_contact" class="aside_img_contact">
+				<img src="img/yay.jpg"
+				title="placeholder"
+				alt="placeholder"/>
+			</a>
+			<a href="https://www.inholland.nl/" id="aside_img3_contact" class="aside_img_contact">
+				<img src="img/yay.jpg"
+				title="placeholder"
+				alt="placeholder"/>
+			</a>
+			</aside>
+			<form action="contact.html" autocomplete="on" class="form">
+				<fieldset>
+					<legend>Contact us via E-mail</legend>
+					<label>First and lastname *</label>
+					<input type="text" id="f&lname" name="name"/>
+					<label>Phone number</label>
+					<input type="text" id="PhoneNmr" name="PhoneNmr"/>
+					<p id="pphone"><em>more than 80% of our customers share a reachable phone number, so we can better help</em></p>
+					<label for="E-mail">E-mail address *</label>
+					<input type="email" id="E-mail" name="email" />
+					<h2>Please select the topic you would like to contact us about, so we can help you batter and faster.</h2>
+					<select name="help" id="help">
+					<option value="" disabled selected>Make a choice</option>
+					<option value="Question order">I have a question about an order</option>
+					<option value="Info computer">I would like to have more information about a computer</option>
+					<option value="Another question">I have another question</option>
+				</select>
+				<h2>Contact about</h2>
+				<select name="Choose topic" id="topic">
+					<option value="" disabled selected>Choose topic</option>
+					<option value="Subject order">Ordering and delivery</option>
+					<option value="Subject cancel">Ordering and delivery</option>
+					<option value="Subject gift">Gift voucher</option>
+					<option value="Subject other">Other question</option>
+				</select>
+				<p>Note *:</p>
+				<textarea id="notes" name="notes" rows="5" cols="60"></textarea>
+				<p id="pnotes"><em>The notes can be up to 5000 characters.</em></p>
+				<section class="section">
+				<p> add an attachment?(optional) </p>
+				<label class="file">Choose file</label>
+				<input type="file" id="Choose file" name="Choose file" />
+				<p id="pmb"><em>Up to 10 MB in size</em></p>
+				<input type="submit" value="> send E-mail" />
+				</section>
+			</fieldset>
+		</form>
+		</header>
+		<footer>
+			<p>&#169; Robin Steffens</p>
+		</footer>
+		<p class="cookie_policy">
+			Cookie Statement.
+		</p>		
+	</body>
+</html>
