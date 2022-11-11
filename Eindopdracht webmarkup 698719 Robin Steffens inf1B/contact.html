@@ -6,6 +6,7 @@
 			type ="text/css"
 			href ="css/stylesheet.css"
 		/>
+		<title>Contact page</title>
 	</head>	
 	<body>
 		<header>
@@ -41,47 +42,48 @@
 					</ul>
 				</section>
 			</nav>
-			<aside id="contact_aside">
-			<a href="https://www.inholland.nl/" id="aside_img1_contact" class="aside_img_contact">
-			<img src="img/yay.jpg"
-				title="placeholder"
-				alt="placeholder"/>
+		</header>
+		<aside id="contact_aside">
+			<a href="https://www.inholland.nl/" id="aside_img1_contact">
+			<img class="aside_img_contact" src="img/baseball.png"
+				title="Radar gun"
+				alt="A radar gun being held above a crowd of people"/>
 			</a>
-			<a href="https://www.inholland.nl/" id="aside_img2_contact" class="aside_img_contact">
-				<img src="img/yay.jpg"
-				title="placeholder"
-				alt="placeholder"/>
+			<a href="https://www.inholland.nl/" id="aside_img2_contact">
+				<img class="aside_img_contact" src="img/AI2_img.jfif"
+				title="AI 3"
+				alt="open palm with AI projected"/>
 			</a>
-			<a href="https://www.inholland.nl/" id="aside_img3_contact" class="aside_img_contact">
-				<img src="img/yay.jpg"
-				title="placeholder"
-				alt="placeholder"/>
+			<a href="https://www.inholland.nl/" id="aside_img3_contact">
+				<img class="aside_img_contact" src="img/bowling_img.png"
+				title="Bowling"
+				alt="A bueatifull man bowling magnificently"/>
 			</a>
-			</aside>
-			<form action="contact.html" autocomplete="on" class="form">
+		</aside>
+		<form action="contact.html" autocomplete="on" class="form">
 				<fieldset>
 					<legend>Contact us via E-mail</legend>
-					<label>First and lastname *</label>
-					<input type="text" id="f&lname" name="name"/>
+					<label><strong>First and lastname *</strong></label>
+					<input type="text" name="name"/>
 					<label>Phone number</label>
-					<input type="text" id="PhoneNmr" name="PhoneNmr"/>
+					<input type="text" name="PhoneNmr"/>
 					<p id="pphone"><em>more than 80% of our customers share a reachable phone number, so we can better help</em></p>
-					<label for="E-mail">E-mail address *</label>
-					<input type="email" id="E-mail" name="email" />
-					<h2>Please select the topic you would like to contact us about, so we can help you batter and faster.</h2>
-					<select name="help" id="help">
+					<label>E-mail address *</label>
+					<input type="email" name="email" />
+					<h2>Please select the topic you would like to contact us about, so we can help you better and faster.</h2>
+					<select name="help">
 					<option value="" disabled selected>Make a choice</option>
-					<option value="Question order">I have a question about an order</option>
-					<option value="Info computer">I would like to have more information about a computer</option>
+					<option value="Question order">I have a question about a price</option>
+					<option value="Info computer">I would like to have more information about an innovation</option>
 					<option value="Another question">I have another question</option>
 				</select>
 				<h2>Contact about</h2>
-				<select name="Choose topic" id="topic">
-					<option value="" disabled selected>Choose topic</option>
-					<option value="Subject order">Ordering and delivery</option>
-					<option value="Subject cancel">Ordering and delivery</option>
-					<option value="Subject gift">Gift voucher</option>
-					<option value="Subject other">Other question</option>
+				<select name="Choose topic">
+					<option value="" disabled selected>Choose an innovation</option>
+					<option value="Subject order">AI</option>
+					<option value="Subject gift">radar gun</option>
+					<option value="Subject other">Bowling</option>
+					<option value="Subject other">Radar gun</option>
 				</select>
 				<p>Note *:</p>
 				<textarea id="notes" name="notes" rows="5" cols="60"></textarea>
@@ -89,14 +91,30 @@
 				<section class="section">
 				<p> add an attachment?(optional) </p>
 				<label class="file">Choose file</label>
-				<input type="file" id="Choose file" name="Choose file" />
+				<input type="file" name="Choose_file"/>
 				<p id="pmb"><em>Up to 10 MB in size</em></p>
 				<input type="submit" value="> send E-mail" />
 				</section>
 			</fieldset>
 		</form>
-		</header>
-		<footer>
+		<aside class="mobile">
+			<a href="https://www.inholland.nl/" id="aside_img1_contact">
+			<img class="aside_img_contact" src="img/baseball.png"
+				title="A. Messerschmidt/Getty Images"
+				alt="A radar gun being held above a crowd of people"/>
+			</a>
+			<a href="https://www.inholland.nl/" id="aside_img2_contact">
+				<img class="aside_img_contact" src="img/AI2_img.jfif"
+				title="AI 3"
+				alt="open palm with AI projected"/>
+			</a>
+			<a href="https://www.inholland.nl/" id="aside_img3_contact">
+				<img class="aside_img_contact" src="img/bowling_img.png"
+				title="Craig Hacker/Getty Images"
+				alt="A bueatifull man bowling magnificently"/>
+			</a>
+		</aside>
+		<footer class="footer">
 			<p>&#169; Robin Steffens</p>
 		</footer>
 		<p class="cookie_policy">
